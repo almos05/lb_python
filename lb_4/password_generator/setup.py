@@ -8,7 +8,7 @@ setup(
     description="A simple password generator library.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/almos05/lb_python/tree/main/lb_4",
+    url="https://github.com/almos05/lb_python/tree/main/lb_4/password_generator",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

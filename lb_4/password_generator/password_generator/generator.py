@@ -27,13 +27,10 @@ class PasswordGenerator:
             raise ValueError("Длина пароля должна быть не менее 1 символа.")
 
         char_pool = string.ascii_lowercase
-
         if self.include_uppercase:
             char_pool += string.ascii_uppercase
-
         if self.include_digits:
             char_pool += string.digits
-
         if self.include_special:
             char_pool += string.punctuation
 

@@ -46,4 +46,3 @@ print(f"Сгенерированный пароль: {password}")
 ## Контакты
 
 По любым вопросам пишите на [tenderboylive3@gmail.com](mailto:tenderboylive3@gmail.com).
-
