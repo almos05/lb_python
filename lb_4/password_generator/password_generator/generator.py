@@ -34,7 +34,4 @@ class PasswordGenerator:
         if self.include_special:
             char_pool += string.punctuation
 
-        if not char_pool:
-            raise ValueError("Необходимо выбрать хотя бы один тип символов для генерации пароля.")
-
         return ''.join(random.choice(char_pool) for _ in range(self.length))
