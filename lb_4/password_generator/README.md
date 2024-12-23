@@ -1,6 +1,6 @@
 # Генератор паролей
 
-`password_generator` — это простая библиотека на Python для генерации надежных и настраиваемых паролей. Вы можете задать длину пароля, включить или исключить заглавные буквы, цифры и специальные символы.
+`password-generate` — это простая библиотека на Python для генерации надежных и настраиваемых паролей. Вы можете задать длину пароля, включить или исключить заглавные буквы, цифры и специальные символы.
 
 ## Возможности
 - Генерация паролей любой длины.
@@ -15,7 +15,7 @@
 Установите библиотеку с помощью pip:
 
 ```bash
-pip install password-generator
+pip install psswrdgen
 ```
 
 ## Использование
@@ -23,7 +23,7 @@ pip install password-generator
 Пример использования библиотеки:
 
 ```python
-from password_generator import PasswordGenerator
+from psswrdgen import PasswordGenerator
 
 # Создаем экземпляр генератора
 generator = PasswordGenerator(length=16, include_uppercase=True, include_digits=True, include_special=True)
